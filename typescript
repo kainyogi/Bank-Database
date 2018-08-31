@@ -1,0 +1,90 @@
+Script started on Tue 13 Mar 2018 10:59:15 PM HST
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2[?1034huhx02:/home/k/kainyogi/ICS212/Homework3bV2% ./homework3bV2 
+popop------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Add
+Please enter the account number
+101
+Please Enter your Name
+Kain yogi
+Please Enter your Address
+And when complete please hit ENTER and type '+'
++ 123 berry street
+apartment #4
+honolulu Hi
+96814
++
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Printa all
+101
+Kain yogi
+123 berry street
+apartment #4
+honolulu Hi
+96814
++
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Print
+Please enter the account number
+101
+101
+Kain yogi
+123 berry street
+apartment #4
+honolulu Hi
+96814
++
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Delete
+Please enter the account number
+19
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Printall
+The list is empty
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Quit
+List is empty nothing saved]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ./homework3bV2 [2Pvi database.c./homework3bV2 [Kexit
+exit
+
+Script done on Tue 13 Mar 2018 11:02:23 PM HST

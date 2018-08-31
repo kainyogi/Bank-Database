@@ -1,0 +1,72 @@
+Script started on Sun 25 Feb 2018 11:37:05 AM HST
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% ls
+database.c  main.c  Makefile  prototypes.h  record.h  [0m[01;34mSCCS[0m  SCCSoutput.txt
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs create main.c
+
+main.c:
+admin: warning: SCCS/s.main.c: No id keywords.
+get: warning: SCCS/s.main.c: No id keywords.
+1.1
+203 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs m[Kcreate mai[K[K[Kprototypes.h
+
+prototypes.h:
+admin: warning: SCCS/s.prototypes.h: No id keywords.
+get: warning: SCCS/s.prototypes.h: No id keywords.
+1.1
+27 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs create database.c
+
+database.c:
+admin: warning: SCCS/s.database.c: No id keywords.
+get: warning: SCCS/s.database.c: No id keywords.
+1.1
+242 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs create record.h
+
+record.h:
+admin: warning: SCCS/s.record.h: No id keywords.
+get: warning: SCCS/s.record.h: No id keywords.
+1.1
+24 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% ls
+,database.c  database.c  ,main.c  main.c  Makefile  ,prototypes.h  prototypes.h  ,record.h  record.h  [0m[01;34mSCCS[0m  SCCSoutput.txt
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% rm ,*[K[K[K[K[Kls SCCS
+s.database.c  s.main.c  s.prototypes.h  s.record.h
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% rm c[K,*
+rm: remove write-protected regular file ‘,database.c’? y
+rm: remove write-protected regular file ‘,main.c’? y
+rm: remove write-protected regular file ‘,prototypes.h’? y
+rm: remove write-protected regular file ‘,record.h’? y
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% y[Kls
+database.c  main.c  Makefile  prototypes.h  record.h  [0m[01;34mSCCS[0m  SCCSoutput.txt
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% ls SCCS
+s.database.c  s.main.c  s.prototypes.h  s.record.h
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs get record.h
+get: warning: SCCS/s.record.h: No id keywords.
+1.1
+24 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs get -e record.h
+1.1
+new delta 1.2
+24 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs unedit record.h
+    record.h: removed
+get: warning: SCCS/s.record.h: No id keywords.
+1.1
+24 lines
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% ls
+database.c  main.c  Makefile  prototypes.h  record.h  [0m[01;34mSCCS[0m  SCCSoutput.txt
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs delta record.h
+comments? nothing changed
+delta: SCCS/s.record.h: You have no edits outstanding.
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% sccs prt record.h
+
+SCCS/s.record.h:
+
+D 1.1	18/02/25 11:38:11 kainyogi	1 0	00024/00000/00000
+date and time created 18/02/25 11:38:11 by kainyogi
+uhx02:/home/k/kainyogi/ICS212/Homework3bV1% exit
+exit
+
+Script done on Sun 25 Feb 2018 11:42:03 AM HST

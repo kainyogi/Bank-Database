@@ -1,0 +1,66 @@
+Script started on Fri 16 Mar 2018 07:08:39 PM HST
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2[?1034huhx02:/home/k/kainyogi/ICS212/Homework3bV2% ls
+[0m[38;5;27mSCCS[0m  sccs.txt
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% sccs get -e getrelease.sh
+1.1
+new delta 1.2
+8 lines
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ls
+getrelease.sh  [0m[38;5;27mSCCS[0m  sccs.txt
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% chmod +x getrelease.sh
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ls
+[0m[38;5;34mgetrelease.sh[0m  [38;5;27mSCCS[0m  sccs.txt
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ./getrelease.sh
+1.2
+new delta 1.3
+208 lines
+1.2
+new delta 1.3
+16 lines
+1.2
+new delta 1.3
+161 lines
+1.2
+new delta 1.3
+24 lines
+1.2
+new delta 1.3
+29 lines
+1.2
+new delta 1.3
+329 lines
+1.2
+new delta 1.3
+0 lines
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ls
+bankarray.txt  database.c  [0m[38;5;34mgetrelease.sh[0m  main.c  Makefile  prototypes.h  record.h  [38;5;27mSCCS[0m  sccs.txt  userfunctions.c
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% make
+gcc -ansi -pedantic-errors -Wall -c main.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:166:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid *[m[K’, but argument 2 has type ‘[01m[Kstruct record **[m[K’ [-Wformat=]
+                         printf("Entering addRecord with start (%p), accountno (%d), uName (%s), uAddress (%s)\n", &start, accountno, uName, uAddress);
+[01;32m[K                         ^[m[K
+gcc -ansi -pedantic-errors -Wall -c database.c
+[01m[Kdatabase.c:[m[K In function ‘[01m[KaddRecord[m[K’:
+[01m[Kdatabase.c:46:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid *[m[K’, but argument 2 has type ‘[01m[Kstruct record ***[m[K’ [-Wformat=]
+         printf("entered addRecord with bankarray (%p),accountno (%d), name (%s), and address (%s)\n",&bankarray, accountno, name, address);
+[01;32m[K         ^[m[K
+gcc -ansi -pedantic-errors -Wall -c userfunctions.c
+gcc -o homework3bV2 main.o database.o userfunctions.o
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ls
+bankarray.txt  database.o     [0m[38;5;34mhomework3bV2[0m  main.o    prototypes.h  [38;5;27mSCCS[0m      userfunctions.c
+database.c     [38;5;34mgetrelease.sh[0m  main.c        Makefile  record.h      sccs.txt  userfunctions.o
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% ./homeo[Kwork3bV2
+------------WELCOME TO NARAYAN BANKING------------
+please enter your menu choice
+menu choice is also CASE SENSITIVE
+ Add  -- add Record
+ Print -- Print Information about a record
+ Printall -- Print all information in the database
+ Delete -- Delete an existing record
+ Quit -- Quit
+Quit
+List is empty nothing saved]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% exit
+exit
+
+Script done on Fri 16 Mar 2018 07:09:34 PM HST

@@ -1,0 +1,20 @@
+Script started on Tue 13 Mar 2018 11:37:52 PM HST
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2[?1034huhx02:/home/k/kainyogi/ICS212/Homework3bV2% make
+gcc -ansi -pedantic-errors -Wall -c main.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:166:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid *[m[K’, but argument 2 has type ‘[01m[Kstruct record **[m[K’ [-Wformat=]
+                         printf("Entering addRecord with start (%p), accountno (%d), uName (%s), uAddress (%s)\n", &start, accountno, uName, uAddress);
+[01;32m[K                         ^[m[K
+gcc -ansi -pedantic-errors -Wall -c database.c
+[01m[Kdatabase.c:[m[K In function ‘[01m[KaddRecord[m[K’:
+[01m[Kdatabase.c:46:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid *[m[K’, but argument 2 has type ‘[01m[Kstruct record ***[m[K’ [-Wformat=]
+         printf("entered addRecord with bankarray (%p),accountno (%d), name (%s), and address (%s)\n",&bankarray, accountno, name, address);
+[01;32m[K         ^[m[K
+gcc -ansi -pedantic-errors -Wall -c userfunctions.c
+gcc -o homework3bV2 main.o database.o userfunctions.o
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% make all
+make: Nothing to be done for `all'.
+]0;kainyogi@uhx02:~/ICS212/Homework3bV2uhx02:/home/k/kainyogi/ICS212/Homework3bV2% exit
+exit
+
+Script done on Tue 13 Mar 2018 11:38:00 PM HST
